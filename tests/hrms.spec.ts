@@ -45,5 +45,6 @@ test("TC_Login", async ({ page }) => {
 
   console.log("DropDown Option selected successfully");
   console.log("---------------------------------");
+  console.log("Test Case TC_Login executed successfully");
 
 });
