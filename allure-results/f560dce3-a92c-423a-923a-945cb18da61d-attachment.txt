@@ -1,0 +1,15 @@
+Project Name: HRMS
+---------------------------------
+Project URL: https://sureshitacademy.in/hrms/login.php
+---------------------------------
+Project Page Title: SureshIT
+Page Launched Successfully
+---------------------------------
+The Located Value is Login Name : 
+---------------------------------
+Login Successful
+---------------------------------
+The Located Value is Welcome sureshit
+---------------------------------
+DropDown Option selected successfully
+---------------------------------

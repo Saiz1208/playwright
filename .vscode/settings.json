@@ -1,0 +1,28 @@
+{
+  "code-runner.executorMap": {
+    "javascript": "node \"$fileName\"",
+    "typescript": "npx ts-node --transpile-only \"$fileName\""
+  },
+  "code-runner.executorMapByFileExtension": {
+    ".ts": "npx ts-node --transpile-only \"$fileName\""
+  },
+  "code-runner.cwd": "${workspaceFolder}",
+  "code-runner.runInTerminal": true,
+  "colorize.languages": [
+    "typescript",
+    "javascript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "variable": "#4EC9B0",
+      "variable.defaultLibrary": "#FFFFFF",
+      "parameter": "#DCDCAA",
+      "property": "#9CDCFE",
+      "variable.readonly.defaultLibrary": "#F48771",
+      "function.defaultLibrary": "#C586C0"
+    }
+  }
+}
