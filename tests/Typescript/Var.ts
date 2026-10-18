@@ -120,3 +120,4 @@ class Student {
 }
 const s1 = new Student();
 s1.m1();
+console.log("Constructor executed"); //true
