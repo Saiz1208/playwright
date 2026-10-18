@@ -1,5 +1,9 @@
 import { test } from '@playwright/test';
 
+const skipLocalOnlyTests = !!process.env.CI;
+
+test.skip(skipLocalOnlyTests, 'Skipping local-only Windows file path tests in CI. Use repo fixtures instead.');
+
 test('File upload Example', async ({ page }) => {
   // Step 1: Open application
   await page.goto('https://ctcorphyd.com/SureshIT/login.php');
